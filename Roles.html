@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo Roles - Hoteles Rurales</title>
+    <link rel="stylesheet" href="Roles.css">
+</head>
+<body>
+    <h1>Módulo de Roles</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID Rol</th>
+                <th>Nombre del Rol</th>
+                <th>Permisos</th>
+                <th>Estado</th>
+                <th>Operaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Administrador</td>
+                <td>Todos</td>
+                <td>Activo</td>
+                <td>
+                    <div class="operaciones">
+                        <select>
+                            <option>Editar</option>
+                            <option>Eliminar</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Recepcionista</td>
+                <td>Reservas, Clientes</td>
+                <td>Activo</td>
+                <td>
+                    <div class="operaciones">
+                        <select>
+                            <option>Editar</option>
+                            <option>Eliminar</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Mantenimiento</td>
+                <td>Infraestructura</td>
+                <td>Inactivo</td>
+                <td>
+                    <div class="operaciones">
+                        <select>
+                            <option>Editar</option>
+                            <option>Eliminar</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
